@@ -22,7 +22,7 @@ def bsearch_answer(condfunc, start, end) :
         return bsearch_answer(condfunc, start, mid+1)
     else :
         # The mid DOES NOT satisfies the condition.
-        # Test the things strictly before the mid.
+        # Test the things strictly after the mid.
         return bsearch_answer(condfunc, mid+1, end)
     
 def cancarrybits(n_bits, n_robots, cashiers, time) :
