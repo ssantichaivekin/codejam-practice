@@ -9,7 +9,7 @@ def bsearch_answer(condfunc, start, end) :
     Note that confunc(x) is a boolean function.
     Return that integer.
     We assume that there is at least one mumber in the range that
-    satisfies the function, and that if x satisfies, then y < x also
+    satisfies the function, and that if x satisfies, then y > x also
     satisfies the function.
     '''
     if end - start == 1 :
