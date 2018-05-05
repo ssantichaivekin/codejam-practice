@@ -1,0 +1,10 @@
+1
+8 2
+AA
+AB
+AC
+BA
+BB
+BC
+CA
+CB
